@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Exercice 7</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	<div class="gen">
+		<form method="post">
+			<div class="form1">
+				<p>Formulaire</p>
+			Cocher votre sexe :
+			<input type="radio" value="masculin" name="sexe"> Homme
+			<input type="radio" value="feminin" name="sexe"> Femme <br><br>
+			Nom :
+			<input type="text" name="nom" class="in1"><br><br>
+			Prenom :
+			<input type="text" name="prenom" class="in2"><br><br>
+			Mot de passe :
+			<input type="password" name="pass" class="in3"><br><br>
+			Niveau d'etude : <br>
+			<select name="select">
+				<option value="1">Universite</option>
+				<option value="2">choix 2</option>
+				<option value="3">choix 3</option>
+			</select> <br><br>
+			Operation souhaite <br>
+			<input type="checkbox" name="choix 1"> Location de mobilier
+			<input type="checkbox" name="choix 2"> Achat de mobilier <br><br>
+			</div>
+			<div class="form2">
+				Votre message : <br>
+				<textarea name="area" cols="30" rows="10" placeholder="vous pouver saisir un message ici"></textarea><br><br>
+				<input type="submit" value="Envoyer" class="button1">
+				<input type="reset" value="Annuler" class="button2">
+			</div>
+			
+		</form>
+	</div>
+</body>
+</html>
